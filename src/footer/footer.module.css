@@ -1,0 +1,23 @@
+.footerBlock {
+    background-color: #81efce;
+
+}
+
+.footerContainer {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+}
