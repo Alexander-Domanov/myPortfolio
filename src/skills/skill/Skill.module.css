@@ -9,10 +9,23 @@
 
 }
 
-.icon {
-    width: 60px;
+.iconBox {
+    color: #E5540A;
     height: 60px;
-    background-color: #f3f3f7;
+    width: 60px;
+    margin: 0px auto 30px;
+    background: #ffffff;
+    display: block;
+    line-height: 60px;
+    font-size: 26px;
+    box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
+    text-align: center;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+.icon {
+    transform: rotate(-45deg);
+    font-weight: 900;
 }
 
 .projectTitle {
