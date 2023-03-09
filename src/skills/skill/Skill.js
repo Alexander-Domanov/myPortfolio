@@ -6,7 +6,7 @@ export const Skill = (props) => {
     return (
         <div className={style.skill}>
             <div className={style.icon}></div>
-            <h3>{props.title}</h3>
+            <h2 className={style.projectTitle}>{props.title}</h2>
             <span className={style.description}>{props.description}</span>
         </div>
     )

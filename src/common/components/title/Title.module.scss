@@ -1,26 +1,53 @@
+@import '../../styles/sass/Variables';
+
 .title {
-    margin: 0 0 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    position: relative;
+  margin-bottom: 50px;
+  font-family: 'Futura PT';
+  color: $titleColor;
+  text-transform: capitalize;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  position: relative;
+  display: block;
+  text-align: center;
 }
 
-.title::before {
-    content: "";
-    position: absolute;
-    background: #4e93e6;
-    width: 55px;
-    height: 1px;
-    bottom: -30px;
-    left: 50%;
-    transform: translate(-50%, 50%);
+.title span {
+  background: #fff;
+  font-family: $textFontFamily;
+  color: #e5540a;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .01em;
+  line-height: 26px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+  text-align: center;
 }
 
-.title h2 {
-    margin: 0;
-    font-weight: 400;
+span::before {
+  border: 2px solid #e5540a;
+  content: "";
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: -8px;
+  width: 39px;
+  z-index: -2;
+}
+
+span::after {
+  background: #fff;
+  content: "";
+  height: 28px;
+  left: 34px;
+  position: absolute;
+  top: -1px;
+  width: 20px;
+  z-index: -1;
 }

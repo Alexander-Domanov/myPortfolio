@@ -1,25 +1,27 @@
-.myProjectsBlock {
-    background-color: #1F1F20;
-    padding: 100px 0;
-}
+@import '../common/styles/sass/Variables';
 
-.myProjectsContainer {
+.myProjectsBlock {
+  background-color: $bgColor;
+
+  .myProjectsContainer {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-items: center;
-}
 
-.myProjects {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1129px) {
     .myProjects {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+      @media screen and (max-width: 1129px) {
         justify-content: center;
+      }
     }
+  }
 }
+
+
+
+
+

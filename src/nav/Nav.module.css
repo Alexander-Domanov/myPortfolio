@@ -3,4 +3,14 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
-} 
+}
+
+.nav a {
+    text-decoration: none;
+    color: #323232;
+    cursor: pointer;
+    display: block;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 500;
+}
